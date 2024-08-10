@@ -19,10 +19,10 @@ console.log('the third element of the array is', thirdElement); //javascript
 length. The log method of the console object is being called with two arguments,
 a string & length of the variable languages.*/
 const length = languages.length;
-console.log('The length of the array is', languages.length); //6
+console.log('The length of the array is', length); //6
 
 /* The 5th index in the variable language is being assigned to the variable last element.
 The log method of the console object is being called with two arguments, a string &
 last element*/
-const lastElement = languages[5];
+const lastElement = length - 1;
 console.log('The last element of the array is', lastElement); //postgres
