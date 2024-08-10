@@ -28,7 +28,7 @@ console.log('convertHoursToMinutes exercise:', convertHoursToMinutesResult); //2
 //#3 getGreeting
 // Line 30: A function named getGreeting is being defined with one parameter, name.
 function getGreeting(name) {
-  const greeting = '' + name + '';
+  const greeting = 'Hello' + name + '!';
   return greeting;
 }
 // Line 39: The string Hello is being assigned to the variable greeting.
@@ -36,7 +36,6 @@ function getGreeting(name) {
  result of that expression is being reassigned to the variable greeting. */
 /* Line 41: The log method of the console.object is being called with two arguments, a string &
  greeting. */
-let greeting = 'Hello';
 greeting += getGreeting(' Tré');
 console.log('getGreeting exercise:', greeting); //Hello Tré
 
@@ -100,15 +99,13 @@ lastName. */
  with lastName is assigned to the variable getFullNameResult. */
 /* Line 106: The log method of the console.object is being called with two arguments, a string &
  getFullNameResult. */
-const firstName = 'Tré';
-const lastName = 'Mitchell';
-const getFullNameResult = firstName + ' ' + lastName;
+const getFullNameResult = getFullName('Tré', 'Mitchell');
 console.log('getFullName exercise:', getFullNameResult); //Tré Mitchell
 
 //#9 cube
 // Line 110: A function named cube is being defined with one parameter, number.
 function cube(number) {
-  getCubed = number * number * number;
+  const getCubed = number * number * number;
   return getCubed;
 }
 /* The function cube is being called with the argument 5, and the value
