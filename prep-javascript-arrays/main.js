@@ -24,5 +24,5 @@ console.log('The length of the array is', length); //6
 /* The 5th index in the variable language is being assigned to the variable last element.
 The log method of the console object is being called with two arguments, a string &
 last element*/
-const lastElement = length - 1;
+const lastElement = languages[length - 1];
 console.log('The last element of the array is', lastElement); //postgres
