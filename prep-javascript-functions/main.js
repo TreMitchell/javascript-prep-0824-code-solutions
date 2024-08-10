@@ -36,7 +36,7 @@ function getGreeting(name) {
  result of that expression is being reassigned to the variable greeting. */
 /* Line 41: The log method of the console.object is being called with two arguments, a string &
  greeting. */
-greeting += getGreeting(' Tré');
+const greeting = getGreeting(' Tré');
 console.log('getGreeting exercise:', greeting); //Hello Tré
 
 // #4 addAndMultiplyBy5
